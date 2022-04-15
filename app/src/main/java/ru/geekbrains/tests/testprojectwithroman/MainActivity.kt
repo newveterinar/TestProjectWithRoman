@@ -1,6 +1,7 @@
 package ru.geekbrains.tests.testprojectwithroman
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -10,5 +11,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         //jddjflzsdjflGLIegwat
         //что-то написала Таня
+        // Изменения от меня - avkhakhalin
+
+        Toast.makeText(this, "Добавил тост", Toast.LENGTH_SHORT).show()
     }
 }
